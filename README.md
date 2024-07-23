@@ -1,8 +1,8 @@
-### 🚀 · **FiveM Cheat Scanner**
+### 🚀 **·** **FiveM Cheat Scanner**
 - Welcome to ***Thomsen's Services***, Denmark's premier provider of **Anti-Cheat** solutions and tools for FiveM. 
  We specialize in Developing Cutting-Edge Software for a wide range of popular FiveM and network servers
 
-### 👣 · ***Steps***
+### 👣 **·** ***Steps***
 - Download the .rar or .zip file.
 
 - Extract the file.
@@ -12,7 +12,7 @@
 - Run the start.bat file.
 
 
-### 💣 · ***What we detect***
+### 💣 **·** ***What we detect***
 - tz project
 
 - tzx project
@@ -27,7 +27,7 @@
 
 - Skript.gg
 
-### 📨 · ***Info***
+### 📨 **·** ***Info***
 > [!WARNING]
 > - By downloading this, you agree to the MIT License and that you're not
 >   allowed to sell this repository or any code from this repository.
