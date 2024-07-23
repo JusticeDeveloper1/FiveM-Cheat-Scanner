@@ -1,9 +1,5 @@
 # 🚀 · FiveM Cheat Scanner
 
-## **📋 Requirements**
-
-- Java ([Click here](https://www.java.com/download/ie_manual.jsp))
-
 ### **🚀 Steps**
 
 ```
