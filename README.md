@@ -1,17 +1,8 @@
 # 🚀 · FiveM Cheat Scanner
 
-## **⭐ Star**
-
-- [x] Join discord server for see what we else make
-- [x] Click on ⭐ at the top right to star this repository!
-
 ## **📋 Requirements**
 
 - Java ([Click here](https://www.java.com/download/ie_manual.jsp))
-
-## **🛠️ Installation**
-
-To install FiveM Cheat Scanner, follow these steps:
 
 ### **🚀 Steps**
 
