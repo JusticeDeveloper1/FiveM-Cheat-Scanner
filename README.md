@@ -2,7 +2,7 @@
 - Welcome to **Thomsen's Services**, Denmark's premier provider of **Anti-Cheat** solutions and tools for FiveM. 
  We specialize in Developing Cutting-Edge Software for a wide range of popular FiveM and network servers
 
-### 👣 · **Steps**
+### 👣 · *Steps*
 - Download the .rar or .zip file.
 
 - Extract the file.
