@@ -1,6 +1,6 @@
-# 🚀 · FiveM Cheat Scanner
+# 🚀 · **FiveM Cheat Scanner**
 
-### **Steps**
+# 👣 · **Steps**
 
 - Download the .rar or .zip file.
 
@@ -11,7 +11,7 @@
 - Run the start.bat file.
 
 
-### **What we detect**
+# 💣 · **What we detect**
 
 - tz project
 
@@ -27,7 +27,7 @@
 
 - Skript.gg
 
-## Info
+# 📨 · Info
 
 > [!WARNING]
 > - By downloading this, you agree to the MIT License and that you're not allowed to sell this repository or any code from this repository.
