@@ -1,7 +1,7 @@
 ## 🚀 · **FiveM Cheat Scanner**
 
 - Welcome to **Thomsen's Services**, Denmark's premier provider of **Anti-Cheat** solutions and tools for FiveM. 
-- We specialize in Developing Cutting-Edge Software for a wide range of popular FiveM and network servers
+ We specialize in Developing Cutting-Edge Software for a wide range of popular FiveM and network servers
 
 ## 👣 · **Steps**
 
@@ -34,4 +34,4 @@
 
 > [!WARNING]
 > - By downloading this, you agree to the MIT License and that you're not
-> -  allowed to sell this repository or any code from this repository.
+>   allowed to sell this repository or any code from this repository.
