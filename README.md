@@ -2,33 +2,31 @@
 
 ### **Steps**
 
-```
-1. Download the .rar or .zip file.
+- 1. Download the .rar or .zip file.
 
-2. Extract the file.
+- 2. Extract the file.
 
-3. Then open cmd and write npm install.
+- 3. Then open cmd and write npm install.
 
-4. Run the start.bat file.
-```
+- 4. Run the start.bat file.
+
 
 ### **What we detect**
 
-```
-1. tz project
+- tz project
 
-2. tzx project
+- tzx project
 
-3. hxcheats
+- hxcheats
 
-4. Eulen
+- Eulen
 
-5. redEngine
+- redEngine
 
-6. Susano
+- Susano
 
-7. Skript.gg
-```
+- Skript.gg
+
 
 
 > [!WARNING]
