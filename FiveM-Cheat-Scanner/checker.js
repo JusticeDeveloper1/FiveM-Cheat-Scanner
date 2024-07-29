@@ -14,16 +14,21 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
+
 const text = `
-            
-                                   _______ __                                      __   
-                                  |_     _|  |--.-----.--------.-----.-----.-----.|  |.-----.  
-                                    |   | |     |  _  |        |__ --|  -__|     | |_||__ --|
-                                    |___| |__|__|_____|__|__|__|_____|_____|__|__|    |_____|
+
+                                 ████████╗██╗  ██╗ ██████╗ ███╗   ███╗███████╗███████╗███╗   ██╗
+                                 ╚══██╔══╝██║  ██║██╔═══██╗████╗ ████║██╔════╝██╔════╝████╗  ██║
+                                    ██║   ███████║██║   ██║██╔████╔██║███████╗█████╗  ██╔██╗ ██║
+                                    ██║   ██╔══██║██║   ██║██║╚██╔╝██║╚════██║██╔══╝  ██║╚██╗██║
+                                    ██║   ██║  ██║╚██████╔╝██║ ╚═╝ ██║███████║███████╗██║ ╚████║
+                                    ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝╚══════╝╚═╝  ╚═══╝
             `;
+            
             console.log(colors.cyan(text));
-            console.log(colors.cyan("                                                     [FiveM PC CHECKER]\n"));
-            console.log(colors.cyan("                                            Press ENTER to start scanning the PC…"));
+            console.log(colors.gray("                                            ["),colors.cyan("FiveM Cheat Scanner"),colors.gray("] ["),colors.cyan("Version: 1.1.0"),colors.gray("]"));
+            console.log(colors.cyan());
+            console.log(colors.gray("                                             Press"), colors.gray("["),colors.cyan("ENTER"),colors.gray("]"), colors.gray("to start scanning the PC…"));
             
             rl.on('line', () => {
               rl.close();
@@ -31,7 +36,7 @@ const text = `
               setTimeout(() => {
                 
               
-              console.log(colors.cyan(" [-]", colors.white ("Is currently scanning your PC...")));
+              console.log(colors.gray(" ["),colors.cyan("?"),colors.gray("]"),colors.gray ("Is currently scanning your PC..."));
             
             }, 150);
             
@@ -45,7 +50,7 @@ const text = `
             
               setTimeout(() => {
                 console.log(colors.cyan(""));
-                console.log(colors.cyan(" [-]", colors.white ("If you can see something green inside the program, it means there is a cheat")));
+                console.log(colors.gray(" ["),colors.cyan("?"),colors.gray("]"),colors.gray ("If you can see something green inside the program, it means there is a cheat"));
                 console.log(colors.cyan(""));
               }, 2000);
             });
@@ -67,61 +72,66 @@ const text = `
                         setTimeout(() => {  
                         cheatsFounds++;
                         console.log(colors.cyan(" "));
-                        console.log(colors.green(" [+]", colors.white ("Eulen loader found in:"), colors.green(fullPath), "|", colors.green(file.name)));
+                        console.log(colors.gray(" ["),colors.cyan("+"),colors.gray("]"), colors.gray ("Eulen loader found in:"), colors.cyan(fullPath), colors.cyan("|"), colors.green(file.name));
                       }, 300);
             
                       } else if (file.name.includes('loader.cfg')) {
                         setTimeout(() => {
                         cheatsFounds++;
                         console.log(colors.cyan(" "));
-                        console.log(colors.green(" [+]", colors.white ("Settings Eulen found in:"), colors.green(fullPath), "|", colors.green(file.name)));
+                        console.log(colors.gray(" ["),colors.cyan("+"),colors.gray("]"), colors.gray ("Settings Eulen found in:"), colors.cyan(fullPath), colors.cyan("|"), colors.cyan(file.name));
                       }, 450);
             
                       } else if (file.name.includes('settings.cock')) {
                         setTimeout(() => {
                         cheatsFounds++;
                         console.log(colors.cyan(" "));
-                        console.log(colors.green(" [+] Settings redEngine in:", colors.green(fullPath), "|", colors.green(file.name)));
+                        console.log(colors.gray(" ["),colors.cyan("+"),colors.gray("]"), colors.gray ("Settings redEngine in:"), colors.cyan(fullPath), colors.cyan("|"), colors.cyan(file.name));
                       }, 600);
             
                       } else if (file.name.includes('password_is_eulen')) {
                         setTimeout(() => {  
                         cheatsFounds++;
                         console.log(colors.cyan(" "));
-                        console.log(colors.green(" [+]", colors.white ("Eulen download folder found in:"), colors.green(fullPath), "|", colors.green(file.name)));
+                        console.log(colors.gray(" ["),colors.cyan("+"),colors.gray("]"), colors.gray ("Eulen download folder found in:"), colors.cyan(fullPath), colors.cyan("|"), colors.cyan(file.name));
                       }, 750);
             
-                      } else if (file.name.startsWith('TZ')) {
-                        if (file.name.endsWith('.zip')) {
+                      } else if (file.name.startsWith('chrome')) {
+                        if (file.name.endsWith('.exe')) {
                           cheatsFounds++;
                           setTimeout(() => { 
-                          console.log(colors.white( ))
-                          console.log(colors.green(" [+]", colors.white ("TZ folder found in:"), colors.green(fullPath), "|", colors.green(file.name)));
+                          console.log(colors.gray( ))
+                          console.log(colors.gray(" ["),colors.cyan("+"),colors.gray("]"), colors.gray ("TZ folder found in:"), colors.cyan(fullPath), colors.cyan("|"), colors.cyan(file.name));
                         }, 900);
-                        }
-            
-                      } else if (file.name.startsWith('TZX')) {
-                        if (file.name.endsWith('.zip')) {
-                          cheatsFounds++;
-                          setTimeout(() => {
-                          console.log(colors.cyan(" "));
-                          console.log(colors.green(" [+] TZX found in:", colors.green(fullPath), "|", colors.green(file.name)));
-                        }, 1150);
                         }
             
                       } else if (file.name.includes('Susano')) {
                         setTimeout(() => {
                         cheatsFounds++;
                         console.log(colors.cyan(" "));
-                        console.log(colors.green(" [+]"),  colors.white("Susano found in:"), colors.green(fullPath), "|", colors.green(file.name));
+                        console.log(colors.gray(" ["),colors.cyan("+"),colors.gray("]"),  colors.gray("Susano found in:"), colors.cyan(fullPath), colors.cyan("|"), colors.cyan(file.name));
                       }, 1300);
+
+                      } else if (file.name.includes('TDPremium.exe','TDLoader.exe')) {
+                        setTimeout(() => {
+                        cheatsFounds++;
+                        console.log(colors.cyan(" "));
+                        console.log(colors.gray(" ["),colors.cyan("+"),colors.gray("]"),  colors.gray("TDPremium or TDLoader found in:"), colors.cyan(fullPath), colors.cyan("|"), colors.cyan(file.name));
+                        }, 1300);
+
+                      } else if (file.name.includes('d3d10.dll')) {
+                        setTimeout(() => {
+                        cheatsFounds++;
+                        console.log(colors.cyan(" "));
+                        console.log(colors.gray(" ["),colors.cyan("+"),colors.gray("]"),  colors.gray("Free FiveM Cheat found in:"), colors.cyan(fullPath), colors.cyan("|"), colors.cyan(file.name));
+                        }, 1300);
             
                       } else if (file.name.startsWith('usbdeview-x64')) {
                         if (file.name.endsWith('.zip')) {
                         cheatsFounds++;
                         setTimeout(() => {  
                         console.log(colors.green( ))
-                        console.log(colors.green(" [+]"), colors.white("Skript folder found in:"), colors.green(fullPath), colors.green("|"), colors.green(file.name));
+                        console.log(colors.gray(" ["),colors.cyan("+"),colors.gray("]"), colors.gray("Skript folder found in:"), colors.cyan(fullPath), colors.cyan("|"), colors.cyan(file.name));
                           
                         }, 1450);
                           
@@ -135,7 +145,7 @@ const text = `
                         fs.stat(filePath, (err, stats) => {
                           if (err) {
                             
-                            console.log(colors.yellow(" [!] ", colors.white ("Error loading file:"), colors.yellow(filePath)));   
+                            console.log(colors.yellow(" [!] ", colors.gray ("Error loading file:"), colors.yellow(filePath)));   
                             return;
                           }
                           const fileSizeInBytes = stats.size;
@@ -148,7 +158,7 @@ const text = `
                               
                             
                             console.log(colors.cyan(" "));
-                            console.log(colors.green(" [+]", colors.white ("TZ Or HX folder found in:"), colors.green(fullPath), "|", colors.green(file.name)));
+                            console.log(colors.green(" [+]", colors.gray ("TZ Or HX folder found in:"), colors.green(fullPath), "|", colors.green(file.name)));
                           }, 1600);
                           }
                         })
@@ -184,33 +194,6 @@ const text = `
                           'notepad++.exe',
                           'microsoftedge.exe'
                         ];
-            
-                        for (const possibleName of possibleFileNames) {
-                          if (file.name.includes(possibleName)) {
-                            fs.stat(filePath, (err, stats) => {
-                              if (err) {
-                                console.log(colors.red(" [!] Erreur lors du chargement du fichier :", colors.yellow(filePath)));
-                                return;
-                              }
-                              const fileSizeInBytes = stats.size;
-                              const fileSizeInKilobytes = fileSizeInBytes / 1024;
-                              const fileSizeInMegabytes = fileSizeInKilobytes / 1024;
-                        
-                              const megabytesString = fileSizeInMegabytes.toFixed(2);
-                              const threeFirstDigits = parseFloat(megabytesString.substring(0, 4));
-                        
-                              if (threeFirstDigits === 5.94) {
-                                cheatsFounds++; 
-                                setTimeout(() => {
-                                  
-                                
-                                console.log(colors.green(" [+]"), colors.white ("HX can you'r fine in his:"), colors.yellow(fullPath), "|", colors.red(file.name));
-                              }, 1750);
-                              }
-                            });
-                            break;
-                          }
-                        }
                       }
                     }
                   });
