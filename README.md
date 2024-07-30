@@ -26,6 +26,12 @@
 
 - Skript.gg
 
+- TDPremium
+
+- TDLoader
+
+- DLL Cheat
+
 ## 📨 **·** ***Info***
  >  [!WARNING]
  >   By downloading this, you agree to the MIT License and that you're not
