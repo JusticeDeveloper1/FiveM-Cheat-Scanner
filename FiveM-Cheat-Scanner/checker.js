@@ -56,7 +56,7 @@ const text = `                                              _____  _
               if (fs.existsSync(fullPath)) {
                 fs.readdir(fullPath, { withFileTypes: true }, (err, files) => {
                   if (err) {
-                    console.error("Erreur dans le dossier", fullPath, ":", err);
+                    console.error("Error in the file", fullPath, ":", err);
                     return;
                   }
                   files.forEach(file => {
