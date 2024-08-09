@@ -1,5 +1,5 @@
 @echo off
-echo Vérification de Node.js...
+echo Checking Node.js...
 
 node -v >nul 2>&1
 if %errorlevel% neq 0 (
